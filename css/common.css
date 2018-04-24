@@ -5,8 +5,9 @@
 .head .tel-box { margin: 15px auto; }
 .head .tel-box img{margin-right: 5px;}
 .head .tel { line-height: 30px; font-size: 22px; color: #5c5c5c; }
-.head .tel i{width:41px;height: 41px;}
-.nav { margin-top: 20px; margin-bottom: 20px;}
+.head .tel i{margin-right:5px;width:41px;height: 41px;}
+.head .tel span{color:#333;}
+.nav { margin-top: 20px; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px solid #e5e5e5;}
 
 .banner img{margin-bottom: 10px;}
 
@@ -18,7 +19,7 @@
 .project-wrap img{height: 200px;}
 
 @media screen and (max-width: 760px) {
-    .head{font-size: .2rem;}
+    .head{height:1.3rem;font-size: .2rem;}
     .head img{width: 3.5rem;}
     .head .tel{line-height: .4rem;font-size: .24rem;}
     .head .tel img{width:.4rem;height: .4rem;}

@@ -15,19 +15,36 @@
             <div class="col-md-6 col-sm-6 col-xs-6">
                 <img src="images/logo.png" alt="logo" />
             </div>
-            <div class="col-md-offset-2 col-sm-offset-2 col-xs-offset-2 col-md-4 col-sm-4 col-xs-4 text-center tel-box">
-                <div class="row tel"><i><img src="images/header_dianhua.png" alt="" /></i>客服热线：4001757195</div>
-                <div class="row tel">客服专员微信咨询：BGY12580L</div>
+            <div class="col-md-6 col-sm-6 col-xs-6 text-center tel-box">
+                <div class="row tel"><i><img src="images/header_dianhua.png" alt="" /></i>客服热线：<span>4001757195</span></div>
+                <div class="row tel">客服专员微信咨询：<span>BGY12580L</span></div>
             </div>
         </div>
-        <div class="row text-center nav">
+        <!-- <div class="row text-center nav">
             <a class="col-md-2 col-xs-4" href="index.html">首页</a>
             <a class="col-md-2 col-xs-4" href="javascript:void(0);">公司品牌简介</a>
             <a class="col-md-2 col-xs-4" href="javascript:void(0);">项目展示</a>
             <a class="col-md-2 col-xs-4" href="javascript:void(0);">三大宗旨</a>
             <a class="col-md-2 col-xs-4" href="javascript:void(0);">旅游同行</a>
             <a class="col-md-2 col-xs-4" href="javascript:void(0);">联系我们</a>
-        </div>
+        </div> -->
+
+        <ul class="nav nav-pills nav-justified text-center">
+            <li role="presentation" class="active"><a href="index.html">首页</a></li>
+            <li role="presentation"><a href="index.html">公司品牌简介</a></li>
+            <li role="presentation" class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                  项目展示 <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="index.html">鼎龙湾</a></li>
+                  <li><a href="index.html">十里银滩</a></li>
+                </ul>
+              </li>
+            <li role="presentation"><a href="index.html">三大宗旨</a></li>
+            <li role="presentation"><a href="index.html">旅游同行</a></li>
+            <li role="presentation"><a href="index.html">联系我们</a></li>
+        </ul>
     </div>
 
     <!-- <div class="container banner">
@@ -37,13 +54,11 @@
     </div> -->
     <div class="container">
         <div id="myCarousel" class="carousel slide">
-            <!-- 轮播（Carousel）指标 -->
             <ol class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                 <li data-target="#myCarousel" data-slide-to="1"></li>
                 <li data-target="#myCarousel" data-slide-to="2"></li>
             </ol>   
-            <!-- 轮播（Carousel）项目 -->
             <div class="carousel-inner">
                 <div class="item active">
                     <img class="w100" src="images/banner1.jpeg" alt="First slide">
@@ -58,7 +73,6 @@
                     <!-- <div class="carousel-caption">标题 3</div> -->
                 </div>
             </div>
-            <!-- 轮播（Carousel）导航 -->
             <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
