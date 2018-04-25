@@ -1,3 +1,26 @@
+// 公用处理方法
+(function(w) {
+    String.prototype.format = function() {
+        for (var temS = this, i = 0; i < arguments.length; ++i) {
+            temS = temS.replace(new RegExp("\\{" + i + "\\}", "g"), arguments[i]);
+        }
+        return temS;
+    }
+
+    String.prototype.getLocPath = function(key) {
+        var value = this.match(key);
+        return value ? true : false;
+    }
+
+    String.prototype.getLocValue = function(key) {
+        var reg = new RegExp(key + '=([^&]*)');
+        var value = this.match(reg);
+        return value ? value[1] : '';
+    }
+
+})(window);
+
+// 公用rem方法
 (function(win, doc) {
     var script = doc.querySelector("#J_script_attrsniffer");
     var remwidth;
@@ -41,9 +64,9 @@
 
         originFontSize = parseFloat(window.getComputedStyle(docEl, null).getPropertyValue("font-size"));
 
-        if( !isIos && definedFontSize != originFontSize ){
+        if (!isIos && definedFontSize != originFontSize) {
             originFontSize = (originFontSize % 1 === 0) ? (originFontSize + 0.5) : originFontSize;
-            docEl.style.fontSize = ( definedFontSize / originFontSize ) * definedFontSize + 'px';
+            docEl.style.fontSize = (definedFontSize / originFontSize) * definedFontSize + 'px';
         }
     }
 
