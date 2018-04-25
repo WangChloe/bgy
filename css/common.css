@@ -42,7 +42,18 @@ a:hover{text-decoration: none;}
 .project-wrap a{margin-bottom: 10px;padding:0 0 10px;border-bottom: 1px solid #e5e5e5;}
 .project-wrap img { height: 200px; }
 .fixed-ad { position: fixed; top: 50%; left: 5px; margin-top: -35px; width: 200px; height: 70px; }
-.fixed-ad.bounceUp { -webkit-animation-name: bounceUp; animation-name: bounceUp; -webkit-transform-origin: center bottom; transform-origin: center bottom; -webkit-animation-duration: 2s; animation-duration: 2s; }
+.fixed-ad.bounceUp { -webkit-animation-name: bounceUp; animation-name: bounceUp; -webkit-transform-origin: center bottom; transform-origin: center bottom;}
+.animated {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
 @-webkit-keyframes bounceUp {
     from,
     50%,

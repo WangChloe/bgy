@@ -2,9 +2,9 @@
 //     <div class="wrap">
 //         <div class="container text-center link-tab">
 //             |<a href="index.html">网站首页</a>|
-//             <a href="index.html">公司简介</a>|
-//             <a href="index.html">房源展示</a>|
-//             <a href="index.html">联系我们</a>|
+//             <a href="profile.html">公司简介</a>|
+//             <a href="project_1.html">房源展示</a>|
+//             <a href="contact.html">联系我们</a>|
 //         </div>
 //         <div class="container text-center copyright">
 //             <span>版权所有© </span>
@@ -32,9 +32,9 @@
         document.writeln("    <div class=\'wrap\'>");
         document.writeln("        <div class=\'container text-center link-tab\'>");
         document.writeln("            |<a href=\'index.html\'>网站首页</a>|");
-        document.writeln("            <a href=\'index.html\'>公司简介</a>|");
-        document.writeln("            <a href=\'index.html\'>房源展示</a>|");
-        document.writeln("            <a href=\'index.html\'>联系我们</a>|");
+        document.writeln("            <a href=\'profile.html\'>公司简介</a>|");
+        document.writeln("            <a href=\'project_1.html\'>房源展示</a>|");
+        document.writeln("            <a href=\'contact.html\'>联系我们</a>|");
         document.writeln("        </div>");
         document.writeln("        <div class=\'container text-center copyright\'>");
         document.writeln("            <span>版权所有© </span>");
