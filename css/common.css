@@ -4,7 +4,7 @@
 .head { height: 92px; }
 .head .tel-box { margin: 15px auto; }
 .head .tel-box img{margin-right: 5px;}
-.head .tel { line-height: 30px; font-size: 22px; color: #5c5c5c; }
+.head .tel { line-height: 35px; font-size: 22px; color: #5c5c5c; }
 .head .tel i{margin-right:5px;width:41px;height: 41px;}
 .head .tel span{color:#333;}
 .nav { margin-top: 20px; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px solid #e5e5e5;}
@@ -27,4 +27,8 @@
 
     .carousel{margin:0 .2rem;}
     .project-wrap img{height: 1.2rem;}
+
+    .carousel-inner{height:3rem;}
+    .carousel-inner>.item{height: 100%;}
+    .carousel .carousel-inner img{height: 100%;}
 }
