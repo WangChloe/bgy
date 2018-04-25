@@ -38,4 +38,7 @@
     .carousel-inner{height:3rem;}
     .carousel-inner>.item{height: 100%;}
     .carousel .carousel-inner img{height: 100%;}
+
+    .footer{font-size: .26rem;}
+    .footer .copyright{font-size: .24rem;}
 }
