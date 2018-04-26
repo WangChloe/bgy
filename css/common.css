@@ -34,8 +34,8 @@ a:hover{text-decoration: none;}
 
 /*index*/
 .carousel .carousel-inner img { height: 490px; }
-.company-profile { margin-bottom: 30px; }
-.company-profile p { margin-top: 10px; }
+.company-profile { display: block; margin-bottom: 30px; }
+.company-profile p { margin-top: 10px; font-size: 16px; color:#444; }
 .intro-container { margin-top: 20px; }
 
 .project-wrap .row{margin:0;}
