@@ -65,7 +65,7 @@
         document.writeln("              <li><a href=\'project_2.html\'>十里银滩</a></li>");
         document.writeln("            </ul>");
         document.writeln("          </li>");
-        document.writeln("        <li class=\'J_nav_item\' role=\'presentation\'><a href=\'purpose.html\'>三大宗旨</a></li>");
+        document.writeln("        <li class=\'J_nav_item\' role=\'presentation\'><a href=\'purpose.html\'>特色体系</a></li>");
         document.writeln("        <li class=\'J_nav_item\' role=\'presentation\'><a href=\'travel.html\'>旅游同行</a></li>");
         document.writeln("        <li class=\'J_nav_item\' role=\'presentation\'><a href=\'contact.html\'>联系我们</a></li>");
         document.writeln("    </ul>");
