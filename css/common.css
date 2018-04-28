@@ -58,7 +58,9 @@ a:hover { text-decoration: none; }
   75% { -webkit-animation-timing-function: linear; animation-timing-function: linear; -webkit-transform: translate3d(0, 20px, 0); transform: translate3d(0, 20px, 0); }
 }
 @media screen and (max-width:1500px) {
-  .fixed-ad { width: .8rem; }
+  .fixed-ad { width: 2rem; }
+  .fixed-ad img { margin-bottom: .12rem; height: 100%; }
+  .fixed-ad p { font-size: .22rem; }
 }
 @media screen and (max-width:760px) {
   .carousel { margin: 0 .2rem; }
