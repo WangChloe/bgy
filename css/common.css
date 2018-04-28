@@ -57,6 +57,17 @@ a:hover { text-decoration: none; }
   25% { -webkit-animation-timing-function: linear; animation-timing-function: linear; -webkit-transform: translate3d(0, -20px, 0); transform: translate3d(0, -20px, 0); }
   75% { -webkit-animation-timing-function: linear; animation-timing-function: linear; -webkit-transform: translate3d(0, 20px, 0); transform: translate3d(0, 20px, 0); }
 }
+
+/*project*/
+.project-container img,
+.purpose-container img,
+.contact img { margin-bottom: 20px; }
+
+/*contact*/
+.contact { font-size: 20px; color: #444; }
+.contact h4 { margin-bottom: 20px; font-size: 26px; color: #111; }
+.contact span { font-weight: bold; color: #111; }
+
 @media screen and (max-width:1500px) {
   .fixed-ad { width: 2rem; }
   .fixed-ad img { margin-bottom: .12rem; height: 100%; }
@@ -69,13 +80,3 @@ a:hover { text-decoration: none; }
   .carousel-inner>.item { height: 100%; }
   .carousel .carousel-inner img { height: 100%; }
 }
-
-/*project*/
-.project-container img,
-.purpose-container img,
-.contact img { margin-bottom: 20px; }
-
-/*contact*/
-.contact { font-size: 20px; color: #444; }
-.contact h4 { margin-bottom: 20px; font-size: 26px; color: #111; }
-.contact span { font-weight: bold; color: #111; }
