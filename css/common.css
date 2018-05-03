@@ -69,9 +69,9 @@ a:hover { text-decoration: none; }
 .contact span { font-weight: bold; color: #111; }
 
 @media screen and (max-width:1500px) {
-  .fixed-ad { width: 2rem; }
+  .fixed-ad { width: 1.4rem; height: .8rem; }
   .fixed-ad img { margin-bottom: .12rem; height: 100%; }
-  .fixed-ad p { font-size: .22rem; }
+  .fixed-ad p { font-size: .14rem; }
 }
 @media screen and (max-width:760px) {
   .carousel { margin: 0 .2rem; }
