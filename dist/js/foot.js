@@ -25,6 +25,7 @@
 
     function setup() {
         bindWriteFoot();
+        webapp.lazyload();
     }
 
     function bindWriteFoot() {

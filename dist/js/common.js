@@ -1,3 +1,23 @@
+// 注册命名空间
+var BGY = {
+    "register": function () {
+        var a = arguments, o = null, i, j, d, rt;
+        for (i = 0; i < a.length; ++i) {
+            d = a[i].split(".");
+            rt = d[0];
+            eval('if (typeof ' + rt + ' == "undefined"){' + rt + ' = {add: function (k, v) { if (!this[k]) { this[k] = v;} return this;} };} o = ' + rt + ';');
+            for (j = 1; j < d.length; ++j) {
+                o[d[j]] = o[d[j]] || {};
+                o = o[d[j]];
+                o.add = function (k, v) {
+                    if (!this[k]) { this[k] = v; } return this;
+                };
+            }
+        }
+        return o;
+    }
+};
+
 // 公用处理方法
 (function(w) {
     String.prototype.format = function() {
@@ -85,3 +105,15 @@
     setFontSize();
 
 }(window, document));
+
+// 公用lazyload方法
+(function(webapp) {
+    webapp.add("lazyload", function(){
+        var $lazy = $("img.J_lazyimg");
+        var $win = $(window);
+
+        $lazy.lazyload({
+            threshold: $win.height() * 3,
+        });
+    })
+})(BGY.register("webapp"));;
